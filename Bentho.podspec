@@ -9,5 +9,5 @@ Pod::Spec.new do |s|
   s.source_files    = 'src/*.{h,m}'
   s.platform        = :ios
   s.requires_arc    = true
-  s.compiler_flags  = '-I../../../React/Base -I../../../React/Executors'
+  s.compiler_flags  = '-I../../../React/Base -I../../../React/Executors -I../node_modules/react-native/React/Base -I../node_modules/react-native/React/Executors'
 end
